@@ -1,0 +1,9 @@
+selector .elementor-background-video-container video {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+selector .elementor-background-video-embed {
+    pointer-events: none;
+}
