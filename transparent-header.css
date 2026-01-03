@@ -1,0 +1,16 @@
+selector.elementor-sticky--effects{ 
+   background-color: rgba(0,0,0,0.4)!important; 
+   backdrop-filter: saturate(180%) blur(20px);
+   -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+selector{ 
+   transition: background-color 1s ease !important;
+}
+selector.elementor-sticky--effects >.elementor-container{
+   min-height: 20px;
+}
+selector > .elementor-container{
+   transition: min-height 1s ease !important;
+}
+.elementor-widget-image a img { display: block; line-height: 0; }
+.elementor-widget-image a { display: inline-block; line-height: 0; padding: 0; }
